@@ -1176,7 +1176,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        maestro:       [4, 4, 4, 4],
 	        visa:          [4, 4, 4, 4],
 	        mir:           [4, 4, 4, 4],
-	        unionPay:      [4, 4, 4, 4],
+	        unionPay:      [4, 4, 4, 9],
 	        general:       [4, 4, 4, 4]
 	    },
 
@@ -1217,8 +1217,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	        // starts with 4; 16 digits
 	        visa: /^4\d{0,15}/,
 
-	        // starts with 62; 16 digits
-	        unionPay: /^62\d{0,14}/
+	        // starts with 62; 21 digits
+	        unionPay: /^62\d{0,19}/
 	    },
 
 	    getStrictBlocks: function (block) {
