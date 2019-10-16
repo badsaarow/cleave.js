@@ -649,8 +649,8 @@ var CreditCardDetector = {
         // starts with 4; 16 digits
         visa: /^4\d{0,15}/,
 
-        // starts with 62; 21 digits
-        unionPay: /^62\d{0,19}/
+        // starts with 62 or 9; 21 digits
+        unionPay: /^(62|9\d{1})\d{0,19}/
     },
 
     getStrictBlocks: function (block) {
