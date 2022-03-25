@@ -33,7 +33,9 @@
   },
   "scripts": {
     "test": "gulp test",
-    "build": "gulp build"
+    "build": "gulp build",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "babel-core": "^6.11.4",
@@ -72,5 +74,9 @@
     "watchify": "^3.7.0",
     "webpack": "^1.13.1",
     "webpack-stream": "^3.2.0"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
