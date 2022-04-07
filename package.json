@@ -70,7 +70,7 @@
     "underscore": "^1.8.3",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0",
-    "webpack": "^1.13.1",
-    "webpack-stream": "^3.2.0"
+    "webpack": "^4.0.0",
+    "webpack-stream": "^7.0.0"
   }
 }
